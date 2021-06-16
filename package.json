@@ -5,12 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start-dev": "NODE_ENV=production node app.js",
+    "start": "NODE_ENV=production node app.js",
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "loadsh": "0.0.4"
+    "loadsh": "0.0.4",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "jest": "^27.0.4"

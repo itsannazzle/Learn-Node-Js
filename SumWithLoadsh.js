@@ -1,5 +1,5 @@
-const _ = require('loadsh');
-
+//const _ = require('loadsh');
+import _ from 'loadsh';
 // sum array with for loop
 
 const arr = [1,2,3,4,5];

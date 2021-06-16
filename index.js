@@ -1,12 +1,15 @@
-const _ = require('loadsh');
-const yourName = // TODO 2
-const environment = // TODO 3'
+//const _ = require('loadsh');
+//import _ from 'loadsh';
+let initialMemoryUsage = process.memoryUsage().heapUsed;
+const yourName = process.argv[2];
+const environment = process.env.NODE_ENV = 'development';
  
 for(let i = 0; i <= 10000; i++) {
-// Proses looping ini akan membuat penggunaan memori naik
+   
 }
+
  
-const currentMemoryUsage = // TODO 4
+const currentMemoryUsage = process.memoryUsage().heapUsed;
  
 console.log(`Hai, ${yourName}`);
 console.log(`Mode environment: ${environment}`)
